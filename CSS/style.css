@@ -1,0 +1,279 @@
+*{
+    box-sizing: border-box;
+}
+body{
+margin: 0;
+background: #fff;;
+font-size: 14px;
+
+color: #000;
+font-style: normal;
+}
+p,h1,h2,h3,h4,h5,h6{
+    font-size: 15px;
+    font-weight: 400;
+    color: #000;;
+    line-height:1.5 ;
+    text-transform: none ;
+    font-style: normal;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+.contact-detail {
+    padding-right: 10px;
+    display: flex;
+    gap: 10px;
+}
+.language {
+    display: flex;
+    justify-content: end;
+    color: #fff;
+}
+.top-header{
+    background-color: black;
+}
+.btm-header {
+    background-color: black;
+}
+i{
+    color: green;
+}
+.ph1{
+    color: #fff;
+}
+.logo img {
+    width: 30%;
+    height: 30%;
+}
+.hdr-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+.hdr-menu nav ul li a{
+    color: white;
+}
+.login_btn a{
+    background-color: green;
+    border-color: green;
+}
+.desc h1{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.5;
+    color: #fff;
+    font-family: 'Poppins';
+    margin: 0;
+    text-align: left;
+}
+.desc{
+    width: 70%;
+    padding: 0 10px;
+    padding-bottom: 50px;}
+#p2{
+    color: #fff;
+    text-align: left;
+}
+#try{
+    text-align: left;
+}
+#fh1{
+    text-align: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: x-large;
+}
+#fch3{
+    text-align: center;
+    font-weight: 500;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+.fcbg img{
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+#fcp{
+    line-height: 1.5;
+    text-align: center;
+}
+.about-section{
+    margin-top: 30px;
+    height: 20%;
+}
+.description h3 {
+    position: absolute;
+    font-size: x-large;
+   color: #fff;
+    background-position: right;
+    font-weight: 500;
+    padding-top: 50px;
+}
+#abp{
+    position: absolute;
+    font-size: larger;
+   color: #fff;
+   padding-top: 130px;
+   padding-right: 150px;
+    font-weight: 300;
+    text-align: justify;
+    text-align-last: justify;
+}
+#learn{
+    padding-top: 280px;
+   
+   
+    
+}
+#row2{
+    padding-top: 20px;
+}
+.servicebg img{
+    margin-top: 20px;
+    
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
+  .service-section{
+    margin-top: 40px;
+  }
+  #ssp{
+    margin-left:20px ;
+    margin-right: 20px;
+    text-align: center;
+    font-size: small;
+  }
+  .service_btn a{
+    background-color: #000;
+  }
+  .add-rest{
+    margin-top: 30px;
+  }
+  #rh1{
+    text-align: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: x-large;
+    color: white;
+    padding-top: 50px;
+  }
+  #rp{
+    text-align: center;
+    justify-content: center;
+    font-weight: 200;
+    font-size: small;
+    color: white;
+    padding-top: 15px;
+    
+  }
+  input{
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 7px;
+    border-color: #fff;
+    text-align: center;
+  }
+  .email {
+   
+    text-align: center;
+   margin-left: 30%;
+}
+.restb a{
+    margin-top: 20px;
+    color: white;
+    background-color: green;
+   border-color: green;
+   margin-left: 20px;
+}
+.popular-recipes{
+    margin-top: 40px;
+}
+#prp{
+    text-align: center;
+    font-size: small;
+    margin-top: 20px;
+}
+#h4p{
+    color: green;
+    
+    font-size: small;
+    font-weight: 700;
+}
+#ph3{
+    text-align: left;
+    font-weight: 600;
+}
+#pp{
+    font-size: 12px;
+    color: gray;
+}
+#fcp{
+    color: gray;
+    font-size: small;
+}
+.p_btn {
+    display: flex;
+    justify-content: center;
+            align-items: center;
+            margin-top: 35px;
+            
+            
+           
+}
+.p_btn a{
+    background-color: #000;
+}
+.popular-recipes{
+    background-color: rgb(237, 255, 249);
+}
+.testimonials{
+    margin-top: 30px;
+}
+#th1{
+    text-align: center;
+    font-size: x-large;   
+    font-weight: 700;
+    margin-top: 70px;
+}
+#tp{
+    text-align: center;
+    margin-top: 40px;
+}
+.reviewbx img{
+width: 25%;
+text-align: center;
+}
+.testimonials{
+    height: 450px;
+    margin-top: 40px;
+}
+.main-footer{
+    margin-top: 25px;
+}
+#fp{
+    color: gray;
+    font-size: small;
+    margin-top: 10px;
+}
+#fh3{
+    font-weight: 500;
+}
+.cp{
+    font-size: small;
+}
+#bfr{
+    display: flex;
+    justify-content: space-between;
+}
